@@ -1,5 +1,40 @@
 $color: #fafa;
 
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: sans-serif;
+}
+
 h1 {
     color: $color;
+}
+
+.badge {
+    font-size: .7rem;
+    color: #fff;
+    padding: .1em .3em;
+    border-radius: .5em;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.success {
+    background-color: #009900;
+}
+
+.danger {
+    background-color: #990000;
+}
+
+.warning {
+    background-color: #999900;
+}
+
+.info {
+    background-color: #0000ff;
 }
